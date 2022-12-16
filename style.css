@@ -1,42 +1,109 @@
 body {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
+  background: #1f2937;
 }
 
 .container {
+  display: grid;
+  place-items: center;
   max-width: 600px;
   margin: 0 auto;
   padding: 0 20px;
+  background-color: #6943ff;
 }
 
 h1 {
   text-align: center;
   margin: 20px 0;
+  color: white;
 }
 
 input,
 button {
+  text-align: center;
   display: block;
-  width: 100%;
-  padding: 10px;
+  height: 83px;
+  width: 117px;
   margin-bottom: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
+  border: 2px solid #b295ff;
   border-radius: 4px;
+  background-color: transparent;
+  font-size: 58px;
+  font-weight: 800;
+  justify-content: center;
+  color: white;
+  line-height: 24px;
 }
 
 button {
   background-color: #4caf50;
   color: white;
   cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  height: 42px;
+  border: none;
 }
 
+#div-1 {
+  display: block;
+  place-items: center;
+  width: 500px;
+  height: 108.57px;
+  background: #273549;
+  border-radius: 4.68077px 0px 0px 0px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#div-2 {
+  display: block;
+  place-items: center;
+  width: 500px;
+  height: 108.57px;
+  background: #273549;
+  border-radius: 4.68077px 0px 0px 0px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#div-3 {
+  display: block;
+  place-items: center;
+  width: 500px;
+  height: 108.57px;
+  background: #273549;
+  border-radius: 4.68077px 0px 0px 0px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-bottom: 35.43px;
+}
 .desc {
-  margin: 20px 0;
+  color: #ccc1ff;
+  font-size: 20px;
+  padding-top: 31px;
+  text-align: center;
 }
 
-.result {
+#result-length {
+  text-align: center;
+  font-size: 14px;
   margin: 10px 0;
-  font-size: 18px;
+  color: white;
+}
+
+#result-volume {
+  text-align: center;
+  font-size: 14px;
+  margin: 10px 0;
+  color: white;
+}
+
+#result-mass {
+  text-align: center;
+  font-size: 14px;
+  margin: 10px 0;
+  color: white;
 }
